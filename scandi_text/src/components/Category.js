@@ -10,30 +10,36 @@ export default class Category extends Component {
       <div className='category'>
         <h1>Category name</h1>
         <div className='category_container'>
-        <div>
-        <img src={img1} alt=""></img>
-        <p>Apollo Running Short</p>
-        </div>
-        <div>
-        <img src={img2} alt=""></img>
-        <p>Apollo Running Short</p>
-        </div>
-        <div>
-        <img src={img3} alt=""></img>
-        <p>Apollo Running Short</p>
-        </div>
-        <div>
-        <img src={img4} alt=""></img>
-        <p>Apollo Running Short</p>
-        </div>
-        <div>
-        <img src={img1} alt=""></img>
-        <p>Apollo Running Short</p>
-        </div>
-        <div>
-        <img src={img3} alt=""></img>
-        <p>Apollo Running Short</p>
-        </div>
+          <div className='category_container_img'>
+            <img src={img1} alt=""></img>
+            <p>Apollo Running Short</p>
+            <span>$50.00</span>
+          </div>
+          <div className='category_container_img'>
+            <img src={img2} alt=""></img>
+            <p>Apollo Running Short</p>
+            <span>$50.00</span>
+          </div>
+          <div className='category_container_img'>
+            <img className='category_container_img-3' src={img3} alt=""></img>
+            <p>Apollo Running Short</p>
+            <span>$50.00</span>
+          </div>
+          <div className='category_container_img'>
+            <img src={img4} alt=""></img>
+            <p>Apollo Running Short</p>
+            <span>$50.00</span>
+          </div>
+          <div className='category_container_img'>
+            <img src={img1} alt=""></img>
+            <p>Apollo Running Short</p>
+            <span>$50.00</span>
+          </div>
+          <div className='category_container_img'>
+            <img src={img3} alt=""></img>
+            <p>Apollo Running Short</p>
+            <span>$50.00</span>
+          </div>
 
 
 

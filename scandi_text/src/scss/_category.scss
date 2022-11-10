@@ -12,4 +12,39 @@
     height: 330px;
     width: 354px;
   }
+
+  &_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+    &_img {
+      font-size: 18px;
+      font-weight: 300;
+      margin-right: 36px;
+      margin-bottom: 103px;
+      width: 384px;
+      padding: 16px;
+
+      &-3 {
+        opacity: 0.5;
+
+        &:before {
+          content: 'OUT OF STOCK';
+          width: 30px;
+          height: 30px;
+          color: red;
+        }
+      }
+
+      & span {
+        font-weight: 500;
+      }
+
+      & p {
+        margin-bottom: 0;
+      }
+    }
+  }
 }
