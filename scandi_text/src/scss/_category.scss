@@ -27,15 +27,10 @@
       width: 384px;
       padding: 16px;
 
+      
+
       &-3 {
         opacity: 0.5;
-
-        &:before {
-          content: 'OUT OF STOCK';
-          width: 30px;
-          height: 30px;
-          color: red;
-        }
       }
 
       & span {

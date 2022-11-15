@@ -1,0 +1,163 @@
+.sidebar {
+  position: absolute;
+  // border: 1px solid black;
+  width: 325px;
+  right: 0;
+  top: 100px;
+  font-size: 16px;
+  background-color: white;
+  // padding: 16px;
+
+
+  &_title {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-weight: 700;
+    padding: 16px;
+
+    & p {
+      font-weight: 500;
+    }
+  }
+
+  &_content {
+    display: flex;
+    padding: 16px;
+
+    &_specyfication {
+
+      &_name {
+        font-weight: 300;
+        width: 136px;
+      }
+
+      &_price {
+        font-weight: 500;
+      }
+
+      &_sizes {
+        font-size: 14px;
+        font-weight: 400;
+
+        &_size {
+          display: flex;
+
+          & div {
+            border: 1px solid #1D1F22;
+            font-family: 'Source Sanse Pro';
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+
+          }
+        }
+      }
+
+      &_color {
+        font-size: 14px;
+
+        &_box {
+          display: flex;
+
+          &_1 {
+            background-color: #D3D2D5;
+            border: 1px solid black;
+            width: 16px;
+            height: 16px;
+            margin-right: 8px;
+
+          }
+
+          &_2 {
+            background-color: #2B2B2B;
+            border: 1px solid black;
+            width: 16px;
+            height: 16px;
+            margin-right: 8px;
+
+          }
+
+          &_3 {
+            background-color: #0F6450;
+            border: 1px solid black;
+            width: 16px;
+            height: 16px;
+            margin-right: 8px;
+
+          }
+        }
+      }
+    }
+
+    &_quantity {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      & p {
+        align-self: center;
+        font-weight: 500;
+      }
+
+      &-minus,
+      &-plus {
+        width: 24px;
+        height: 24px;
+        border: 1px solid #1D1F22;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 8px;
+
+      }
+    }
+
+  }
+  &_total {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+
+    &_name {
+      font-family: 'Roboto';
+      font-weight: 500;
+    }
+    &_sum {
+      font-weight: 700;
+    }
+  }
+  &_button {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin-bottom: 32px;
+    
+
+
+    &_bag,
+    &_check {
+      font-family: 'Raleway';
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+
+      width: 140px;
+      height: 43px;
+
+      border: 1px solid #1D1F22;
+      background-color: #FFFFFF;
+    }
+
+    &_check {
+      background-color: #5ECE7B;
+      color: #FFFFFF;
+      border: none;
+    }
+    
+  }
+
+}

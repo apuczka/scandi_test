@@ -1,9 +1,14 @@
 @import '../scss/header';
 @import '../scss/category';
+@import '../scss/sidebar';
 
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 400;
   max-width: 1500px;
+}
+
+.wrapper {
+  position: relative;
 }
