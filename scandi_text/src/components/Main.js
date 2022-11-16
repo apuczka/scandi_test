@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Category from './Category';
 import Sidebar from './Sidebar';
+import Currency from './Currency';
 
 export default class Main extends Component {
   render() {
@@ -10,6 +11,7 @@ export default class Main extends Component {
         <Header />
         <Category />
         {/*<Sidebar />*/}
+        <Currency />
       </div>
     )
   }
