@@ -9,7 +9,7 @@ export default class Main extends Component {
       <div className='wrapper'>
         <Header />
         <Category />
-        <Sidebar />
+        {/*<Sidebar />*/}
       </div>
     )
   }

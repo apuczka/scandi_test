@@ -21,7 +21,11 @@ export default class Category extends Component {
             <span>$50.00</span>
           </div>
           <div className='category_container_img'>
-            <img src={img3} alt=""></img>
+            <div className='category_container_img-3'>
+              <img src={img3} alt=""></img>
+              <div>OUT OF STOCK</div>
+            </div>
+
             <p>Apollo Running Short</p>
             <span>$50.00</span>
           </div>
